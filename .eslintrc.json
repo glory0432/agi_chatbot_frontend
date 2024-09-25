@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "react/react-in-tsx-scope": "off",
+    "prettier/prettier": "error",
+    "@typescript-eslint/no-empty-object-type": "off"
+  }
+}
